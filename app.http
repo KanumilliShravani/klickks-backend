@@ -1,0 +1,23 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "email": "iamRoja25@yahoo.com",
+    "password" : "iam25"
+}
+###
+
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{
+      "email": "iamPooja20@yahoo.com",
+      "password" : "iam20"
+}
+###
+
+POST http://localhost:3000/logout
+###
+
+GET http://localhost:3000/dashboard
+###s
